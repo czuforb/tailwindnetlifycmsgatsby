@@ -1,0 +1,31 @@
+a {
+  @apply text-tertiary font-body;
+}
+
+a:hover {
+  @apply underline;
+}
+
+p {
+  @apply font-body text-secondary text-base mt-2 mb-4;
+}
+
+h1 {
+  @apply font-display text-secondary text-2xl mt-16 mb-8;
+}
+
+h2 {
+  @apply font-display text-secondary text-xl mt-16 mb-4;
+}
+
+h3 {
+  @apply text-l text-secondary font-display mt-8;
+}
+
+ul {
+  @apply ml-4 mt-8;
+}
+
+li {
+  @apply font-body text-base mt-6 text-secondary border-l-2 border-tertiary pl-4;
+}
